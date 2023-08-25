@@ -26,7 +26,7 @@ def load_csv():
                'ind_nomina_ult1','ind_nom_pens_ult1','ind_recibo_ult1']
 
     # read large csv file using chunks
-    reader = pd.read_csv('C:/Demo/Bank Recommender System/Citi_Recommendation_System-main/Citi_Recommendation_System-main/df_train_small.csv', chunksize=1e6,
+    reader = pd.read_csv('C:/Demo/Bank Recommender System/Citi_Recommendation_System-main/Citi_Recommendation_System-main/df_train_small.zip', chunksize=1e6,
                      dtype=dtype_list, usecols=name_col)
 
     df_train = pd.concat([chunk for chunk in reader])
