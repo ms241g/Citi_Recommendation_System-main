@@ -184,12 +184,12 @@ def hybrid(user_id, df_p, df_u, sim_matrix, df_m, f1, f2, f3):
 # hybrid_rec = hybrid(0, df_p = load_csv, df_u = df_useritem, df_m = df_mb, f1 = 0.5, f2 = 0.25, f3 = 0.25)
 
 product_names = {"ind_ahor_fin_ult1" : "Saving Account",
-"ind_aval_fin_ult1" : "Guarantees",
-"ind_cco_fin_ult1" : "Current Accounts",
-"ind_cder_fin_ult1" : "Derivada Account",
-"ind_cno_fin_ult1" : "Payroll Account",
-"ind_ctju_fin_ult1" : "Junior Account",
-"ind_ctma_fin_ult1" : "Más Particular Account",
+"ind_aval_fin_ult1" : "Travel Expenses more than 2000 $",
+"ind_cco_fin_ult1" : "Mortagage Expenses 10%",
+"ind_cder_fin_ult1" : "Shoping Expenses 10%",
+"ind_cno_fin_ult1" : "Dining Expenses - 10%",
+"ind_ctju_fin_ult1" : "Current Accounts",
+"ind_ctma_fin_ult1" : "Credit card Expenses - 20%",
 "ind_ctop_fin_ult1" : "Particular Account",
 "ind_ctpp_fin_ult1" : "Particular Plus Account",
 "ind_deco_fin_ult1" : "Short-term Deposits",
