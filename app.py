@@ -32,11 +32,11 @@ product_list = [product for product in r.product_names.values()]
 
 
 with col1:
-    arr1 = [ (1 if (st.radio(str(product_list[i]), ['Not Owns', 'Owns'], horizontal=True, index=0)) == 'Owns' else 0) for i in range(0,12)]
+    arr1 = [ (1 if (st.radio(str(product_list[i]), ['not having', 'having'], horizontal=True, index=0)) == 'Owns' else 0) for i in range(0,12)]
 
 
 with col2:
-    arr2 = [ (1 if (st.radio(str(product_list[i]), ['Not Owns', 'Owns'], horizontal=True, index=0)) == 'Owns' else 0) for i in range(12,24)]
+    arr2 = [ (1 if (st.radio(str(product_list[i]), ['not having', 'having'], horizontal=True, index=0)) == 'Owns' else 0) for i in range(12,24)]
 
 
 click = st.button('Get Recommendations')
