@@ -1,7 +1,7 @@
 import streamlit as st
 import recommendation_system as r
 
-st.set_page_config(page_title="Citi Product Recommendater System", page_icon="🏦")
+st.set_page_config(page_title="Bank Product Recommender System", page_icon="🏦")
 
 header = st.container()
 
@@ -11,11 +11,11 @@ def get_data():
     return df_train1505
 
 with header:
-    st.header("Citi Recommendation System")
+    st.header("Bank Recommendation System")
     
     st.markdown('''
     The hybrid recommendation system provides product recommendations based on the products the customer owns.
-    The system is based on 3 recommendation engines:
+    This system is based on 3 recommendation engines:
     - The first looks for similarities between users and recommends products with the highest likelihood ratio.
     - Another recommendation engine is based on a machine learning model that recommends suitable products based on classification.
     - The third model is based on the most popular products.
